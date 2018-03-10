@@ -1,0 +1,54 @@
+#title{
+	background-color: dimgrey;
+	color: gainsboro;
+	text-align: center;
+}
+
+a:hover{
+	background-color: #000000;
+}
+
+#content{
+	text-align: center;
+	background-color: dimgrey;
+	color: white;
+}
+
+.info{
+	text-align: center;
+	margin-top: 35px;
+	height: 6px;
+}
+
+#tab{
+	background-color: cadetblue;
+	table-layout: fixed;
+}
+
+td{
+	text-align: center;
+	font-weight: normal;
+	font-style: italic;
+	overflow: visible;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+h4{
+	margin-left: 12px;
+	border: 2px #000000 solid;
+	padding: 7px;
+	margin-top: 50px;
+	text-align: center;
+	color: coral;	
+}
+#main-content{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 0px;
+	margin-left: 14px;
+	border: 1px solid black;
+}
