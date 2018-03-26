@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf8" />
+		<title>Test</title>
+		<style type="text/css">
+			._body {
+				background-color: antiquewhite;
+			}
+		</style>
+	</head>
+	<body class="_body">
+		<hr />
+		<h1>以下为信息采集，请认真填写</h1>
+		<hr />
+		<p><code>(仅限于2017级计算机学院01班全体学生)</code></p>
+		<fieldset>
+			<legend>Basic infomation</legend>
+			<form method="post" action="http://localhost/getInfo.php">
+				_Name <input type="text" name="name" placeholder="姓名" /> <br />
+				___Age <input type="text" name="age" placeholder="年龄" />  <br />
+				<p><code>请选择您的性别: </code></p>
+				___Sex <input type="radio" name="sex" value="男" />男
+					  <input type="radio" name="sex" value="女" />女	   <br />
+				Major <input type="text" name="major" placeholder="专业">  <br />
+				<input type="submit" value="提交" /> <br />
+				<hr />
+				<code>-- 反馈 --</code><br />
+				<textarea name="textarea" placeholder="写你所想，感谢您的每一份认真" rows="20" cols="80"></textarea>
+			</form>
+		</fieldset>
+	</body>
+</html>
